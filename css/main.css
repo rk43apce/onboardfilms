@@ -3359,6 +3359,7 @@ font-family: 'Sanchez', serif;
   padding-bottom: 5rem;
   background-color: #151515;
   position: relative;
+  color: #c5c5c5;
 }
 
 .s-contact .display-1 a {
@@ -3374,15 +3375,14 @@ font-family: 'Sanchez', serif;
 .s-contact h4 {
   margin-top: 0;
   margin-bottom: 4.5rem;
-  color: rgba(255, 255, 255, 0.25);
+  color: #c5c5c5;
   font-size: 1.6rem;
   line-height: 1.3125;
-  text-transform: uppercase;
   letter-spacing: .2rem;
 }
 
-.s-contact a {
-  color: #F26522;
+.s-contact .contact-list a {
+  color: #c5c5c5;
 }
 
 .s-contact a:hover,
@@ -3449,17 +3449,18 @@ font-family: 'Sanchez', serif;
   border: 1px solid #333;
 }
 
-.mc-form input:focus {
-  color: #000;
+
+.newsletter input:focus {
+  color: #c5c5c5;
 }
 
-/*.mc-form input::-webkit-input-placeholder {
-  color: #000;
+.newsletter input::-webkit-input-placeholder {
+  color: #c5c5c5;
 }
 
-.mc-form input:-moz-placeholder {
-   color: #000;     /* Firefox 18- */
-}
+/*.mc-form input:-moz-placeholder {
+   color: #000;     /* Firefox 18- 
+}*/
 
 /*.mc-form input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.2);      
@@ -3473,10 +3474,7 @@ font-family: 'Sanchez', serif;
   color: rgba(255, 255, 255, 0.2) !important;
 }
 */
-.mc-form input[type=submit] {
 
-  background-color: red ! important;
-}
 
 .mc-form label {
   color: #FFFFFF;
@@ -3792,3 +3790,17 @@ footer a:visited {
 .logo1{
   display: none;
 }
+
+.sepraotr{
+ border-bottom: 4px solid #2d7990; 
+ width: 150px;
+ margin-bottom: 5rem;
+}
+
+.sepraotr-sm{
+ border-bottom: 2px solid #2d7990; 
+ width: 50px;
+ margin: 2rem 0;
+}
+
+
