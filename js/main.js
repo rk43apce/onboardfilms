@@ -127,33 +127,33 @@
 
     /* Highlight the current section in the navigation bar
      * ------------------------------------------------------ */
-    var clWaypoints = function() {
+    // var clWaypoints = function() {
 
-        var sections = $(".target-section"),
-            navigation_links = $(".header-nav li a");
+    //     var sections = $(".target-section"),
+    //         navigation_links = $(".header-nav li a");
 
-        sections.waypoint( {
+    //     sections.waypoint( {
 
-            handler: function(direction) {
+    //         handler: function(direction) {
 
-                var active_section;
+    //             var active_section;
 
-                active_section = $('section#' + this.element.id);
+    //             active_section = $('section#' + this.element.id);
 
-                if (direction === "up") active_section = active_section.prevAll(".target-section").first();
+    //             if (direction === "up") active_section = active_section.prevAll(".target-section").first();
 
-                var active_link = $('.header-nav li a[href="#' + active_section.attr("id") + '"]');
+    //             var active_link = $('.header-nav li a[href="#' + active_section.attr("id") + '"]');
 
-                navigation_links.parent().removeClass("current");
-                active_link.parent().addClass("current");
+    //             navigation_links.parent().removeClass("current");
+    //             active_link.parent().addClass("current");
 
-            },
+    //         },
 
-            offset: '25%'
+    //         offset: '25%'
 
-        });
+    //     });
         
-    };
+    // };
 
 
    /* photoswipe
@@ -343,13 +343,10 @@
         clPreloader();
         clMoveHeader();
         clMobileMenu();
-        clWaypoints();
-        clPhotoswipe();
-        clStatCount();
         clSlickSlider();
         clSmoothScroll();
         clPlaceholder();
-        clAlertBoxes();
+
         clAOS();
 
         $WIN.on('resize', function() {

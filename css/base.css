@@ -32,8 +32,7 @@
  *
  * ------------------------------------------------------------------- */
 /*@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Merriweather:300,400,400i,700|Libre+Baskerville:700");*/
-
-@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700&display=swap');
 @import url("font-awesome/css/fontawesome-all.css");
 
 
@@ -53,6 +52,7 @@ html {
 
 body {
   margin: 0;
+  font-family: Merriweather;
 }
 
 article,

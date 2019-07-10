@@ -67,21 +67,22 @@ html {
 
 }
 
+
+
 html,
 body {
   height: 100%;
 }
 
 body {
-  background: #151515;
-  font-family: 'Sanchez', serif;
-  font-size: 1.7rem;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1.941;
-  color: rgba(0, 0, 0, 0.65);
-  margin: 0;
-  padding: 0;
+	background-color: #fff;
+	font-family: 'Merriweather', serif;
+	font-size: 1.8rem;
+	font-weight: 300;
+	line-height: 1.35;
+	color: #333333;
+	margin: 0;
+	padding: 0;
 }
 
 /* ------------------------------------------------------------------- 
@@ -89,6 +90,7 @@ body {
  * ------------------------------------------------------------------- */
 a {
   color: #2d7990;
+
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -109,8 +111,8 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-font-family: 'Sanchez', serif;
-  font-weight: 600;
+font-family: 'Merriweather', serif;
+  font-weight: 400;
   color: #000000;
   text-rendering: optimizeLegibility;
 }
@@ -184,7 +186,7 @@ p img {
 }
 
 p.lead {
- font-family: 'Sanchez', serif;
+ font-family: 'Merriweather', serif;
   font-weight: 300;
   font-size: 2.4rem;
   line-height: 1.875;
@@ -219,12 +221,12 @@ em, i, strong, b {
 }
 
 em, i {
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-style: italic;
 }
 
 strong, b {
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-weight: 700;
 }
 
@@ -252,7 +254,7 @@ blockquote:before {
 }
 
 blockquote p {
- font-family: 'Sanchez', serif;
+ font-family: 'Merriweather', serif;
   padding: 0;
   font-size: 2.1rem;
   line-height: 1.857;
@@ -261,7 +263,7 @@ blockquote p {
 
 blockquote cite {
   display: block;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-size: 1.4rem;
   font-style: normal;
   line-height: 1.5;
@@ -278,7 +280,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: 'Sanchez', serif;
+  font-family: 'Merriweather', serif;
   font-weight: 700;
   font-variant: small-caps;
   text-transform: lowercase;
@@ -287,7 +289,7 @@ abbr {
 }
 
 var, kbd, samp, code, pre {
- font-family: 'Sanchez', serif;
+ font-family: 'Merriweather', serif;
 }
 
 pre {
@@ -441,7 +443,7 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
 }
 
 th,
@@ -453,8 +455,8 @@ td {
 
 th {
   color: #000000;
- font-family: 'Sanchez', serif;
-  font-weight: 600;
+ font-family: 'Merriweather', serif;
+  font-weight: 700;
 }
 
 td {
@@ -747,19 +749,20 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"],
+input[type="file"],
 textarea,
 select {
   display: block;
   height: 6rem;
   padding: 1.5rem 2.4rem;
-  border: 0;
+  border: 1px solid #ddd;
   outline: none;
-  color: #151515;
- font-family: 'Sanchez', serif;
+  color: #333;
+ font-family: 'Merriweather', serif;
   font-size: 1.5rem;
   line-height: 3rem;
   max-width: 100%;
-  background: rgba(0, 0, 0, 0.12);
+     background-color: rgba(249,249,249,1);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -836,7 +839,7 @@ select:focus {
 
 label,
 legend {
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-weight: 600;
   font-size: 1.4rem;
   margin-bottom: .9rem;
@@ -845,7 +848,7 @@ font-family: 'Sanchez', serif;
   display: block;
 }
 
-input[type="checkbox"],
+/*input[type="checkbox"],*/
 input[type="radio"] {
   display: inline;
 }
@@ -853,7 +856,7 @@ input[type="radio"] {
 label > .label-text {
   display: inline-block;
   margin-left: 1rem;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-weight: normal;
   line-height: inherit;
 }
@@ -917,8 +920,8 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: 'Sanchez', serif;
-  font-weight: 600;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -1041,7 +1044,7 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 3rem;
   border-radius: 3px;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.6;
@@ -1088,7 +1091,7 @@ font-family: 'Sanchez', serif;
   float: left;
   margin: 0;
   padding: 1.5rem .6rem 0 0;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-weight: 700;
   font-size: 8.4rem;
   line-height: 6rem;
@@ -1224,7 +1227,7 @@ font-family: 'Sanchez', serif;
 .stats-tabs li a {
   display: inline-block;
   font-size: 2.5rem;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-weight: 700;
   border: none;
   color: #000000;
@@ -1237,7 +1240,7 @@ font-family: 'Sanchez', serif;
 .stats-tabs li a em {
   display: block;
   margin: .6rem 0 0 0;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-size: 1.4rem;
   font-weight: normal;
   font-style: normal;
@@ -1264,7 +1267,7 @@ font-family: 'Sanchez', serif;
   position: absolute;
   left: 0;
   top: -3rem;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
@@ -1284,7 +1287,7 @@ font-family: 'Sanchez', serif;
   right: 0;
   top: -3.6rem;
   display: block;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   color: #FFFFFF;
   font-size: 1.1rem;
   line-height: 1;
@@ -1406,8 +1409,8 @@ font-family: 'Sanchez', serif;
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-font-family: 'Sanchez', serif;
-  font-weight: 600;
+font-family: 'Merriweather', serif;
+  font-weight: 700;
   font-size: 4.6rem;
   line-height: 1.5;
   letter-spacing: -0.03rem;
@@ -1420,8 +1423,8 @@ font-family: 'Sanchez', serif;
 }
 
 .subhead {
-font-family: 'Sanchez', serif;
-  font-weight: 600;
+font-family: 'Merriweather', serif;
+  font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.333;
   text-transform: uppercase;
@@ -1619,7 +1622,7 @@ font-family: 'Sanchez', serif;
   box-shadow: 0 0 4px 1px #d6d6d6;
   opacity: 0;
   visibility: hidden;
-  z-index: 600;
+  z-index: 400;
 }
 
 .s-header.sticky > .row {
@@ -1684,7 +1687,7 @@ font-family: 'Sanchez', serif;
   height: 42px;
   width: 42px;
   line-height: 42px;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -1782,7 +1785,7 @@ font-family: 'Sanchez', serif;
  * ## navigation 
  * ------------------------------------------------------------------- */
 .header-nav-wrap {
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-weight: 500;
   font-size: 11px;
   text-transform: uppercase;
@@ -1812,6 +1815,7 @@ font-family: 'Sanchez', serif;
   letter-spacing: -1px;/*  color: rgba(255, 255, 255, 0.5);*/
   color: #333;
   text-transform: capitalize;
+
 }
 
 .header-nav li.current a,
@@ -1985,7 +1989,7 @@ font-family: 'Sanchez', serif;
 
 .home-content h1 {
   font-size: 6.6rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.5;
   margin-top: 0;
   color: #404040;
@@ -2039,9 +2043,9 @@ font-family: 'Sanchez', serif;
 .home-content__video .video-text {
   display: inline-block;
   text-align: center;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 700;
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   letter-spacing: .4rem;
@@ -2073,8 +2077,8 @@ font-family: 'Sanchez', serif;
 }
 
 .home-content__scroll .scroll-link {
-font-family: 'Sanchez', serif;
-  font-weight: 600;
+font-family: 'Merriweather', serif;
+  font-weight: 400;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .35rem;
@@ -2104,7 +2108,7 @@ font-family: 'Sanchez', serif;
  * ------------------------------------------------------------------- */
 .home-social {
   list-style: none;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   margin: 0;
   position: absolute;
   top: 6rem;
@@ -2652,7 +2656,7 @@ html.no-csstransitions .home-content__main {
   content: counter(ctr, decimal-leading-zero) ".";
   counter-increment: ctr;
   margin-bottom: 4.8rem;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-weight: 700;
   font-size: 3.6rem;
   line-height: 1;
@@ -2705,7 +2709,7 @@ font-family: 'Sanchez', serif;
 .item-folio {
   position: relative;
   overflow: hidden;
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
 }
 
 .item-folio__thumb a {
@@ -2920,7 +2924,7 @@ font-family: 'Sanchez', serif;
 }
 
 .testimonials {
-font-family: 'Sanchez', serif;
+font-family: 'Merriweather', serif;
   font-weight: normal;
   font-size: 1.8rem;
   line-height: 2;
@@ -3357,7 +3361,7 @@ font-family: 'Sanchez', serif;
 .s-contact {
   padding-top: 6rem;
   padding-bottom: 5rem;
-  background-color: #151515;
+  background-color: #333;
   position: relative;
   color: #c5c5c5;
 }
@@ -3382,19 +3386,19 @@ font-family: 'Sanchez', serif;
 }
 
 .s-contact .contact-list a {
-  color: #c5c5c5;
+  color: #888;
 }
 
 .s-contact a:hover,
 .s-contact a:focus,
 .s-contact a:active {
-  color: #FFFFFF;
+  color: #2d7990;
 }
 
 .contact-infos {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-family: "Sanchez", sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-weight: normal;
   font-size: 2rem;
   line-height: 1.5;
@@ -3446,8 +3450,44 @@ font-family: 'Sanchez', serif;
   width: 100%;
   height: 6.6rem;
   margin-bottom: 1.8rem;
-  border: 1px solid #333;
+
 }
+
+
+.newsletter{
+   display: flex;
+  flex-flow: row wrap;
+  align-items: left;
+}
+
+ .newsletter input{
+
+
+  font-size: 16px;
+  text-align: left;
+  text-transform: none;
+  color: #888;
+  background-color: rgba(255,255,255,.1);
+  border-width: 0;
+  border-style: solid;
+  border-color: #eee;
+  width: 30%;
+  margin-right: 5px;
+  height: 5.5rem;
+
+  }   
+
+  .btn-subscribe{
+    height: 5.5rem;
+    background-color: #2d7990;
+    color: #fff;
+    border: .2rem solid #2d7990;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 17px;
+  }
+
+
 
 
 .newsletter input:focus {
@@ -3490,6 +3530,8 @@ font-family: 'Sanchez', serif;
  * responsive:
  * contact
  * ------------------------------------------------------------------- */
+
+
 @media only screen and (max-width:1200px) {
   .s-contact {
     padding-top: 16.2rem;
@@ -3774,7 +3816,17 @@ footer a:visited {
 .post{
   background-color: #f7f7f7;
   padding: 15px;
+  box-shadow: 2px 2px 1px 1px rgba(0,0,0,.1);
+  padding-bottom: 45px;
 
+}
+
+.post p{
+  margin-top: 1.5rem;
+}
+
+.p-heading{
+  font-size: 1.5rem;
 }
 
 .make-it-better {
@@ -3803,4 +3855,24 @@ footer a:visited {
  margin: 2rem 0;
 }
 
+.sepraotr-white{
+ border-bottom: 4px solid #fff; 
+ width: 150px;
+ margin-bottom: 5rem;
+}
 
+
+.btn-submit{
+    background-color: #2d7990 !important; 
+    text-align: center; 
+    color: #fff !important; 
+    border:0!important;
+    font-size: 300 !important;
+    font-size: 1.5rem;
+}
+
+
+.btn-submit:hover{
+    background-color: #2d7990;
+    opacity: .8;
+}
